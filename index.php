@@ -4,7 +4,7 @@
     if(isset($_POST['name'])){
     $server = "localhost";
     $username = "jinish";
-    $password = "Jinish@123";
+    $password = "MY_PASSWORD";
     $dbname = "trip";
 
     $con = mysqli_connect($server, $username, $password);
